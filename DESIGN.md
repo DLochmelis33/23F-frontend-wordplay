@@ -25,7 +25,7 @@ Players also can have profiles. They allow to: set an avatar, choose favorite co
 The logic is quite simple:
 
 * matching users and creating games
-  * will need `User` and `Game` models, as well as a `Matcher`
+  * will need `User` (?) and `Game` models, as well as a `Matcher`
 * playing the game
   * nothing too complex here; will need a `Dictionary` to validate words
 
