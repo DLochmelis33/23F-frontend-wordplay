@@ -4,8 +4,8 @@ import kotlin.time.Duration
 
 class Game(
     val playerCount: Int,
-    val timePerMove: Duration,
-    val moveLimit: Int,
+    val timePerMove: Duration?,
+    val moveLimit: Int?,
     private val dictionary: Dictionary,
     initialLine: String,
 ) {
